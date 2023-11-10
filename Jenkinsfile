@@ -13,6 +13,7 @@ pipeline {
 	                 }}
 		stage('Deployment'){
 		    steps {
-			sh 'cp target/grras8.war /home/grras/slave-dir/apache-tomcat-9.0.82/webapps'
+			sh 'cp target/grras8.war /home/kunal/Documents/devopssoftware/tar/apache-tomcat-9.0.82/webapps'
+
 			}}	
 }}
